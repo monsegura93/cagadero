@@ -5,12 +5,246 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <nav></nav>
+        <br>
+        <div class="container-fluid">
+            <nav class="navbar navbar-default">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-1">
+                        <span class="sr-only">Menu</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="index.html"><img src="images/LogoReb2.png" class="logo" id="logo" alt=""></a> <br>
+                </div>
+                
+                <div class="collapse navbar-collapse account" id="navbar-1">
+                    <ul class="nav navbar-nav navbar-right ">
+                        <li><a href="#">CARRITO (0)</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">MI CUENTA <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Perfil</a></li>
+                                <li><a href="#">Lista de deseos</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Cerrar sesión</a></li>
+                            </ul>
+                        </li>
+                    </ul> <br><br>
+                    <ul class="nav navbar-nav opt">
+                        <li class="dropdown mega-dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">MUJER</a>				
+                            <ul class="dropdown-menu mega-dropdown-menu">
+                                <li class="col-sm-3 hidden-xs">
+                                    <ul>
+                                        <li class="dropdown-header">NUEVO</li>                            
+                                        <div id="menCollection" class="carousel slide" data-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="item active">
+                                                    <a href="#"><img src="images/photos/dsc05315.jpg" class="img-responsive" alt="product 1"></a>
+                                                    <h4><small>Vestido y rebozo</small></h4>                                        
+                                                    <button class="btn btn-primary" type="button">$ 7,599.00</button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span></button>       
+                                                </div>
+                                                <div class="item">
+                                                    <a href="#"><img src="images/photos/dssc05322.jpg" class="img-responsive" alt="product 2"></a>
+                                                    <h4><small>Vestido y rebozo</small></h4>                                        
+                                                    <button class="btn btn-primary" type="button">$ 7,599.00</button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span></button>        
+                                                </div>                            
+                                            </div>
+                                        </div>
+                                        <li class="divider"></li>
+                                        <li><a href="#">Ver catálogo <span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+                                    </ul>
+                                </li>
+                                <li class="col-sm-3">
+                                    <ul>
+                                        <li class="dropdown-header">ATUENDO</li>
+                                        <li><a href="#">Ver todo</a></li>
+                                        <li class="divider"></li>
+                                        <li class="dropdown-header">VESTIDOS</li>
+                                        <li><a href="#">Novia</a></li>
+                                        <li><a href="#">Fiesta</a></li>
+                                        <li><a href="#">Casuales</a></li>
+                                        <li class="divider"></li>
+                                        <li class="dropdown-header">OTRAS PRENDAS</li>
+                                        <li><a href="#">Tops /Blusas</a></li>
+                                        <li><a href="#">Faldas</a></li>
+                                    </ul>
+                                </li>
+                                <li class="divider visible-xs"></li>
+                                <li class="col-sm-3">
+                                    <ul>
+                                        <li class="dropdown-header">ACCESORIOS</li>
+                                        <li><a href="#">Collares</a></li>
+                                        <li><a href="#">Aretes</a></li>                           
+                                        <li><a href="#">Bolsos</a></li>	
+                                        <li class="divider"></li>
+                                        <li class="dropdown-header">REBOZOS</li>
+                                        <li><a href="#">Seda</a></li>                            
+                                        <li><a href="#">Articela</a></li>	
+                                        <li class="divider"></li>
+                                        <li class="dropdown-header">CHALINAS</li>
+                                        <li><a href="#">Seda</a></li>                            
+                                        <li><a href="#">Articela</a></li>						
+                                    </ul>
+                                </li>
+                                <li class="divider visible-xs"></li>
+                                <li class="col-sm-3">
+                                    <ul>
+                                        <li class="dropdown-header">CREA TU DISEÑO</li>
+                                        <li><a href="#">Robozo</a></li>
+                                        <li><a href="#">Chalina</a></li>
+                                        <li><a href="#">Prenda</a></li>                      
+                                    </ul>
+                                </li>
+                            </ul>				
+                        </li>
+                        <li class="dropdown mega-dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">HOMBRE</a>				
+                            <ul class="dropdown-menu mega-dropdown-menu">
+                                <li class="col-sm-3 hidden-xs">
+                                    <ul>
+                                        <li class="dropdown-header">NUEVO</li>                            
+                                        <div id="menCollection" class="carousel slide" data-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="item active">
+                                                    <a href="#"><img src="http://placehold.it/254x150/ff3546/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 1"></a>
+                                                    <h4><small>Vestido de novia rebozo</small></h4>                                        
+                                                    <button class="btn btn-primary" type="button">$ 20,599.00 </button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span></button>       
+                                                </div>
+                                                <div class="item">
+                                                    <a href="#"><img src="http://placehold.it/254x150/3498db/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 2"></a>
+                                                    <h4><small>Rebozo de ceda color rojo</small></h4>                                        
+                                                    <button class="btn btn-primary" type="button">$ 7,599.00</button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span></button>        
+                                                </div>
+                                                <div class="item">
+                                                    <a href="#"><img src="http://placehold.it/254x150/2ecc71/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 3"></a>
+                                                    <h4><small>Bolsa de rebozo</small></h4>                                        
+                                                    <button class="btn btn-primary" type="button">$ 1,599.00</button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span></button>      
+                                                </div>                               
+                                            </div>
+                                        </div>
+                                        <li class="divider"></li>
+                                        <li><a href="#">Ver catálogo <span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+                                    </ul>
+                                </li>
+                                <li class="col-sm-3">
+                                    <ul>
+                                        <li class="dropdown-header">ACCESORIOS</li>
+                                        <li><a href="#">Corbatas</a></li>
+                                        <li><a href="#">Corbatines</a></li>
+                                        <li><a href="#">Moños</a></li>
+                                        <li><a href="#">Cinturones</a></li>
+                                    </ul>
+                                </li>
+                                <li class="divider visible-xs"></li>
+                                <li class="col-sm-3">
+                                    <ul>
+                                        <li class="dropdown-header">CREA TU DISEÑO</li>
+                                        <li><a href="#">Corbata</a></li>
+                                        <li><a href="#">Corbatin</a></li>
+                                        <li><a href="#">Moño</a></li>
+                                        <li><a href="#">Cinturon</a></li>							
+                                    </ul>
+                                </li>
+                            </ul>				
+                        </li>
+                        <li class="dropdown mega-dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">NIÑOS</a>				
+                            <ul class="dropdown-menu mega-dropdown-menu">
+                                <li class="col-sm-3 hidden-xs">
+                                    <ul>
+                                        <li class="dropdown-header">NUEVO</li>                            
+                                        <div id="menCollection" class="carousel slide" data-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="item active">
+                                                    <a href="#"><img src="http://placehold.it/254x150/ff3546/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 1"></a>
+                                                    <h4><small>Vestido de novia rebozo</small></h4>                                        
+                                                    <button class="btn btn-primary" type="button">$ 20,599.00 </button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span></button>       
+                                                </div>
+                                                <div class="item">
+                                                    <a href="#"><img src="http://placehold.it/254x150/3498db/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 2"></a>
+                                                    <h4><small>Rebozo de ceda color rojo</small></h4>                                        
+                                                    <button class="btn btn-primary" type="button">$ 7,599.00</button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span></button>        
+                                                </div>
+                                                <div class="item">
+                                                    <a href="#"><img src="http://placehold.it/254x150/2ecc71/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 3"></a>
+                                                    <h4><small>Bolsa de rebozo</small></h4>                                        
+                                                    <button class="btn btn-primary" type="button">$ 1,599.00</button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span></button>      
+                                                </div>                               
+                                            </div>
+                                        </div>
+                                        <li class="divider"></li>
+                                        <li><a href="#">Ver catálogo <span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+                                    </ul>
+                                </li>
+                                <li class="divider visible-xs"></li>
+                                <li class="col-sm-3">
+                                    <ul>
+                                        <li class="dropdown-header">ATUENDOS</li>
+                                        <li><a href="#">Ver todo</a></li>
+                                        <li class="divider"></li>
+                                        <li class="dropdown-header">VESTIDOS</li>
+                                        <li><a href="#">Novia</a></li>
+                                        <li><a href="#">Fiesta</a></li>
+                                        <li><a href="#">Casuales</a></li>
+                                        <li class="divider"></li>
+                                        <li class="dropdown-header">OTRAS PRENDAS</li>
+                                        <li><a href="#">Tops /Blusas</a></li>
+                                        <li><a href="#">Faldas</a></li>
+                                    </ul>
+                                </li>
+                                <li class="divider visible-xs"></li>
+                                <li class="col-sm-3">
+                                    <ul>
+                                        <li class="dropdown-header">ACCESORIOS</li>
+                                        <li><a href="#">Collares</a></li>
+                                        <li><a href="#">Aretes</a></li>                           
+                                        <li><a href="#">Bolsos</a></li>	
+                                        <li class="divider"></li>
+                                        <li class="dropdown-header">REBOZOS</li>
+                                        <li><a href="#">Seda</a></li>                            
+                                        <li><a href="#">Articela</a></li>	
+                                        <li class="divider"></li>
+                                        <li class="dropdown-header">CHALINAS</li>
+                                        <li><a href="#">Seda</a></li>                            
+                                        <li><a href="#">Articela</a></li>						
+                                    </ul>
+                                </li>
+                                <li class="divider visible-xs"></li>
+                                <li class="col-sm-3">
+                                    <ul>
+                                        <li class="dropdown-header">CREA TU DISEÑO</li>
+                                        <li><a href="#">Robozo</a></li>
+                                        <li><a href="#">Chalina</a></li>
+                                        <li><a href="#">Prenda</a></li>                      
+                                    </ul>
+                                </li>
+                            </ul>				
+                        </li>
+                        <li class="dropdown mega-dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">MAGAZINE</a>							
+                        </li>
+                    </ul>
+                </div>
+                <br>
+            </nav>
+        </div>
     </header>
+
     
     
+    
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 </body>
 </html>
