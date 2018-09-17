@@ -22,7 +22,9 @@ img.logo{
   width: 120px;
   text-align: justify;
 }
-.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+.navbar-default .navbar-nav>.open>a, 
+.navbar-default .navbar-nav>.open>a:focus, 
+.navbar-default .navbar-nav>.open>a:hover {
   color: #0d0d0d;
   background-color: #ffffff;
   text-decoration: underline;
@@ -134,47 +136,10 @@ img.logo{
   text-decoration: underline;
   text-decoration-color: #0d0d0d;
 }
-@media (max-width: 767px){
-.navbar-default .navbar-nav .open .dropdown-menu>li>a {
-    color: #0d0d0d;
-}
-.dropdown-menu .divider {
-  width: 500px;
-  height: 1px;
-  margin: 9px -60px;
-  overflow: hidden;
-  background-color: #cccccc;
-  border-bottom: #EAEAEA 1px solid;
-  opacity: 0.5;
-}
-}
 
 
-@media screen and (min-width:768px){
-  ul.nav.navbar-nav.opt {
-    margin-left: 100px;
-  }
-}
-@media screen and (min-width:868px){
-  ul.nav.navbar-nav.opt {
-    margin-left: 150px;
-  }
-}
-@media screen and (min-width:968px){
-  ul.nav.navbar-nav.opt {
-    margin-left: 190px;
-  }
-}
-@media screen and (min-width:1068px){
-  ul.nav.navbar-nav.opt {
-    margin-left: 270px;
-  }
-}
-@media screen and (min-width:1168px){
-  ul.nav.navbar-nav.opt {
-    margin-left: 50px;
-  }
-}
+
+
 
 
 
