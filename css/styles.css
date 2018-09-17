@@ -136,7 +136,59 @@ img.logo{
   text-decoration: underline;
   text-decoration-color: #0d0d0d;
 }
-
+/*carrusel*/
+#myCarousel.carousel.slide{
+  margin-top: -20px;
+}
+.item h1{
+  font-size:6vw;
+  font-weight: 900;
+  margin-top: -290px;
+  margin-left: -200px;
+  margin-right: -180px;
+  text-align: center;
+  letter-spacing:-5px;
+  color:none;
+}
+.carousel-indicators li div{
+  width: 15px;
+  height: 15px;
+  background: none; 
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  margin-top: 3px;
+}
+.carousel-indicators li.active div{
+  width: 15px;
+  height: 15px;
+  background: none;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  margin-top: 1px;
+  padding: 2px; 
+}
+.carousel-indicators li{
+  width: 25px;
+  height: 25px;
+  background: none;
+  border: none;
+  margin: 4px;
+  padding-top: 1px;
+  padding-left: 2px;
+}
+.carousel-indicators li.active{
+  width: 26px;
+  height: 26px;
+  background: none;
+  border: none;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  margin: 5px 4px 3px 4px;
+  border-top: -2px;
+}
 
 
 
