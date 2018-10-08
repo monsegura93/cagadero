@@ -13,10 +13,11 @@
         padding: 2px;
     }
     .navbar-toggle{
-    position: static;
+        position: static;
     }
     header .logo-xs{/*Estilos de logo para resolución xs,sm*/
         width: 73px;
+        display:block;
         float: left;
         margin-left: 1px;
         margin-top: 10px;
@@ -76,7 +77,35 @@
     } 
     header .navbar-default .navbar-nav > li > a{
         margin-top: 75px;
-    }    
+    }  
+    header .logo-xs{/*Estilos de logo para resolución xs,sm*/
+        width: 100px;
+        display:block;
+        margin:auto;
+        margin-top: 5px;
+    }  
+    .dropdown-menu {
+    position: absolute;
+    /* top: 100%; */
+    /* left: 0; */
+    /* z-index: 1000; */
+    display: none;
+    float: left;
+    min-width: 120px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    /* text-align: left; */
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    /* border: 1px solid #ccc; */
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
 }
   @media (max-width: 1060px){
     .nav.navbar-nav.menu li.opt{
@@ -95,102 +124,12 @@
     header .navbar .navbar-collapse {
         text-align: left;
       }
+      .header2 .navbar .navbar-collapse {
+        text-align: left;
+    }
     header .logo-lg {
         margin-left: 15px;
     } 
 }
 
 
-
-
-
-
-
-
-
-
-/*
-@media (max-width: 767px){
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-        color: #0d0d0d;
-    }
-    
-} 
-@media screen and (min-width:768px){
-    ul.nav.navbar-nav.opt {
-        margin-left: 100px;
-    }
-    header li.logo-xs{
-        width: 100px;
-        display:block;
-        margin:auto;
-      }
-  }
-  @media screen and (min-width:868px){
-    ul.nav.navbar-nav.opt {
-        margin-left: 150px;
-    }
-  }
-  @media screen and (min-width:968px){
-    ul.nav.navbar-nav.opt {
-        margin-left: 190px;
-    }
-  }
-  @media screen and (min-width:1068px){
-    ul.nav.navbar-nav.opt {
-        margin-left: 270px;
-    }
-  }
-  @media screen and (min-width:1168px){
-    ul.nav.navbar-nav.opt {
-    margin-left: 50px;
-    }
-  }
-  
-  /*styles text and button carrusel responsive
-  @media screen and (max-width:1000px){
-    .item h1{
-      font-size:6vw;
-      font-weight: 900;
-      margin-top: -200px;
-      text-align: center;
-      letter-spacing:-3px;
-      color: white;
-    }
-  }
-  @media screen and (max-width:700px){
-    .item h1{
-      font-size:6vw;
-      font-weight: 900px;
-      margin-top: -100px;
-      text-align: center;
-      letter-spacing:-2px;
-      color: white;
-    }
-    .btn.btn-primary.press-here{
-      width: 17vw;
-    }
-  }
-  @media screen and (max-width:500px){
-    .item h1{
-      font-size:6vw;
-      font-weight: 900;
-      margin-top: -80px;
-      margin-left: -180px;
-      text-align: center;
-      letter-spacing:-1px;
-      color: white;
-    }
-    .btn.btn-primary.press-here{
-      width: 16vw;
-    }
-  }
-  
-  
-   
-  }
-  @media screen and (max-width:846px){
-    .navbar-default .navbar-nav > li > a {
-        margin-left: 5px;
-        margin-top: 10px;
-    }
