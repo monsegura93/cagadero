@@ -4,421 +4,183 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>document</title>
+    <title itemprop="name">Rebozos Sta María -  </title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-    <header>
-        <br>
-        <div class="container-fluid">
-            <nav class="navbar navbar-default">
+    <header class="">
+        <div class="">    
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="cuenta-tienda">
+                    <ul class="nav-cuentatienda pull-right">
+                        <li><a href="#"> <span class="hidden-xs hidden-sm" >CARRITO</span><span class="visible-xs visible-sm glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">MI CUENTA <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Perfil</a></li>
+                                <li><a href="#">Lista de deseos</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Inicia sesión</a></li>
+                            </ul>
+                        </li>    
+                    </ul>
+                </div><br>
                 <div class="navbar-header">
-                    <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar-1" aria-expanded="false">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".menu-header">
                         <span class="sr-only">Menu</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a href="index.html"><img src="images/LogoReb2.png" class="logo" id="logo" alt=""></a> <br>
+                    <div class="logo-xs">
+                        <img src="images/logo6.jpg" class="visible-xs img-responsive title-logo "  alt="">
+                    </div>    
                 </div>
-                
-                <div class="collapse navbar-collapse" id="navbar-1">
-                    <ul class="nav navbar-nav navbar-right ">
-                        <li><a href="#">CARRITO (0)</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MI CUENTA <span class="caret"></span></a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li><a href="#">Perfil</a></li>
-                                <li><a href="#">Lista de deseos</a></li>
-                                <li class="divider"></li>
-                                <li><a href="#">Cerrar sesión</a></li>
-                            </ul>
-                        </li>
-                    </ul> 
-                    <ul class="nav navbar-nav opt">
-                        <li class="dropdown mega-dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MUJER</a>				
+                <div class="collapse navbar-collapse menu-header">
+                    <ul class="nav navbar-nav">
+                        <li class="logo-xs"><img src="images/logo6.jpg" class="hidden-xs img-responsive title-logo"  alt=""></li>
+                        <li class="active opt"><a href="#">CASA</a></li>
+                        <li class="dropdown mega-dropdown opt">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">ACERCA DE</a>				
                             <ul class="dropdown-menu mega-dropdown-menu">
-                                <li class="col-sm-3 hidden-xs">
+                                <li class="col-md-3">
                                     <ul>
-                                        <li class="dropdown-header">NUEVO</li>                            
-                                        <span id="womanCollection" class="carousel slide" data-ride="carousel">
+                                        <li class="dropdown-header">HISTORIA</li>
+                                        <li><a href="#">Santa María del Río</a></li>
+                                        <li><a href="#">El rebozo</a></li>
+                                        <li><a href="#">Otras Artesanías</a></li>
+                                        <li class="divider"></li>
+                                        <li class="dropdown-header">ELABORACIÓN</li>
+                                        <li><a href="#">Rebozos</a></li>
+                                        <li><a href="#">Chalinas</a></li>
+                                        <li><a href="#">Otras Artesanías</a></li>
+                                        <li class="divider"></li> 
+                                    </ul>
+                                </li>
+                                <li class="col-md-3">
+                                    <ul>
+                                        <li class="dropdown-header">TRADICIÓN ARTESANAL</li>
+                                        <li><a href="#">Santa María del Río</a></li>
+                                        <li><a href="#">Rebozo</a></li>
+                                        <li><a href="#">Artesanías</a></li>
+                                        <li class="divider"></li>
+                                        <li class="dropdown-header">UBICACIÓN</li>
+                                        <li><a href="#">Santa María del Río</a></li>
+                                        <li><a href="#">Puntos de Venta Rebozo</a></li>
+                                        <li><a href="#">Puntos de Venta Artesanías</a></li>
+                                        <li class="divider"></li> 
+                                    </ul>
+                                </li>
+                                <li class="col-md-3">
+                                    <ul>
+                                        <li class="dropdown-header">GALERÍA</li>
+                                        <li><a href="#">Santa María del Río</a></li>
+                                        <li><a href="#">Rebozos</a></li>
+                                        <li><a href="#">Chalinas</a></li>                            
+                                        <li><a href="#">Otras Artesanías</a></li>							
+                                    </ul>
+                                </li>
+                                <li class="col-md-3 hidden-xs hidden-sm">
+                                    <ul>
+                                        <li class="dropdown-header"></li>                            
+                                        <div id="galería-fotos" class="carousel slide" data-ride="carousel">
                                             <div class="carousel-inner">
                                                 <div class="item active">
-                                                    <a href="#"><img src="images/photos/dsc05315.jpg" class="img-responsive" alt="product 1"></a>
-                                                    <h4><small>Vestido y rebozo</small></h4>                                        
-                                                    <button class="btn btn-primary" type="button">$ 7,599.00</button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span></button>       
+                                                    <a href="#"><img src="images/photos/slidebg4.jpg" class="img-responsive" alt="photo 1"></a>                                         
                                                 </div>
                                                 <div class="item">
-                                                    <a href="#"><img src="images/photos/dssc05322.jpg" class="img-responsive" alt="product 2"></a>
-                                                    <h4><small>Vestido y rebozo</small></h4>                                        
-                                                    <button class="btn btn-primary" type="button">$ 7,599.00</button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span></button>        
-                                                </div>                            
+                                                    <a href="#"><img src="images/photos/slidebg4.jpg" class="img-responsive" alt="photo 2"></a>     
+                                                </div>
+                                                <div class="item">
+                                                    <a href="#"><img src="images/photos/slidebg4.jpg" class="img-responsive" alt="photo 3"></a> 
+                                                </div>                              
                                             </div>
-                                        </span>
-                                        <li class="divider"></li>
-                                        <li><a href="#">Ver catálogo <span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
-                                    </ul>
-                                </li>
-                                <li class="col-sm-3">
-                                    <ul>
-                                        <li class="dropdown-header">ATUENDO</li>
-                                        <li><a href="#">Ver todo</a></li>
-                                        <li class="divider"></li>
-                                        <li class="dropdown-header">VESTIDOS</li>
-                                        <li><a href="#">Novia</a></li>
-                                        <li><a href="#">Fiesta</a></li>
-                                        <li><a href="#">Casuales</a></li>
-                                        <li class="divider"></li>
-                                        <li class="dropdown-header">OTRAS PRENDAS</li>
-                                        <li><a href="#">Tops /Blusas</a></li>
-                                        <li><a href="#">Faldas</a></li>
-                                    </ul>
-                                </li>
-                                <li class="divider visible-xs"></li>
-                                <li class="col-sm-3">
-                                    <ul>
-                                        <li class="dropdown-header">ACCESORIOS</li>
-                                        <li><a href="#">Collares</a></li>
-                                        <li><a href="#">Aretes</a></li>                           
-                                        <li><a href="#">Bolsos</a></li>	
-                                        <li class="divider"></li>
-                                        <li class="dropdown-header">REBOZOS</li>
-                                        <li><a href="#">Seda</a></li>                            
-                                        <li><a href="#">Articela</a></li>	
-                                        <li class="divider"></li>
-                                        <li class="dropdown-header">CHALINAS</li>
-                                        <li><a href="#">Seda</a></li>                            
-                                        <li><a href="#">Articela</a></li>						
-                                    </ul>
-                                </li>
-                                <li class="divider visible-xs"></li>
-                                <li class="col-sm-3">
-                                    <ul>
-                                        <li class="dropdown-header">CREA TU DISEÑO</li>
-                                        <li><a href="#">Robozo</a></li>
-                                        <li><a href="#">Chalina</a></li>
-                                        <li><a href="#">Prenda</a></li>                      
-                                    </ul>
+                                        </div>
+                                        <li><a href="#">Ver más fotografías <span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+                                    </ul>                        
                                 </li>
                             </ul>				
                         </li>
-                        <li class="dropdown mega-dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">HOMBRE</a>				
+                        <li class="opt"><a href="#">SERVICIOS</a></li>
+                        <li class="hidden-xs logo-lg"><img src="images/logo4.png" class=" logo img-responsive" id="logo" alt=""></li>
+                        <li class="dropdown mega-dropdown opt">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">TIENDA</a>				
                             <ul class="dropdown-menu mega-dropdown-menu">
-                                <li class="col-sm-3 hidden-xs">
+                                <li class="col-md-3">
                                     <ul>
-                                        <li class="dropdown-header">NUEVO</li>                            
-                                        <div id="menCollection" class="carousel slide" data-ride="carousel">
+                                        <li class="dropdown-header">MUJER</li>
+                                        <li><a href="#">Rebozos</a></li>
+                                        <li><a href="#">Chalinas</a></li>
+                                        <li><a href="#">Atuendos</a></li>
+                                        <li><a href="#">Accesorios</a></li>
+                                        <li><a href="#">Otras Artesanias</a></li>
+                                        <li class="divider"></li>
+                                        <li class="dropdown-header">HOMBRE</li>
+                                        <li><a href="#">Atuendos</a></li>
+                                        <li><a href="#">Accesorios</a></li>
+                                        <li><a href="#">Otras Artesanias</a></li>
+                                        <li class="divider"></li>
+                                    </ul>
+                                </li>
+                                <li class="col-md-3">
+                                    <ul>
+                                        <li class="dropdown-header">NIÑOS</li>
+                                        <li><a href="#">Atuendos</a></li>
+                                        <li><a href="#">Accesorios</a></li>
+                                        <li><a href="#">Otras Artesanías</a></li>	
+                                        <li class="divider"></li>
+                                        <li class="dropdown-header">HOGAR</li>
+                                        <li><a href="#">Rebozo Productos</a></li>
+                                        <li><a href="#">Otras Aresanías</a></li> 
+                                        <li class="divider"></li> 			
+                                    </ul>
+                                </li>
+                                <li class="col-md-3">
+                                    <ul> 	
+                                        <li class="dropdown-header">CREA TU DISEÑO</li>
+                                        <li><a href="#">Rebozo</a></li>
+                                        <li><a href="#">Chalina</a></li>
+                                        <li><a href="#">Prenda</a></li>			
+                                    </ul>
+                                </li>
+                                <li class="col-md-3 hidden-xs hidden-sm">
+                                    <ul>                           
+                                        <div id="Collection" class="carousel slide" data-ride="carousel">
                                             <div class="carousel-inner">
                                                 <div class="item active">
-                                                    <a href="#"><img src="images/photos/dsc05315.jpg" class="img-responsive" alt="product 1"></a>
-                                                    <h4><small>Vestido de novia rebozo</small></h4>                                        
+                                                    <a href="#"><img src="images/photos/slidebg1.jpg" class="img-responsive" alt="product 1"></a><br>
+                                                    <p>Vestido de novia rebozo</p>                                        
                                                     <button class="btn btn-primary" type="button">$ 20,599.00 </button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span></button>       
                                                 </div>
                                                 <div class="item">
-                                                    <a href="#"><img src="images/photos/dsc05315.jpg" class="img-responsive" alt="product 2"></a>
-                                                    <h4><small>Rebozo de ceda color rojo</small></h4>                                        
+                                                    <a href="#"><img src="images/photos/slidebg1.jpg" class="img-responsive" alt="product 2"></a><br>
+                                                    <p>Rebozo de ceda color rojo</p>                                     
                                                     <button class="btn btn-primary" type="button">$ 7,599.00</button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span></button>        
                                                 </div>
                                                 <div class="item">
-                                                    <a href="#"><img src="images/photos/dsc05315.jpg" class="img-responsive" alt="product 3"></a>
-                                                    <h4><small>Bolsa de rebozo</small></h4>                                        
+                                                    <a href="#"><img src="images/photos/slidebg1.jpg" class="img-responsive" alt="product 3"></a><br>
+                                                    <p>Bolsa de rebozo</p>                                        
                                                     <button class="btn btn-primary" type="button">$ 1,599.00</button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span></button>      
                                                 </div>                               
                                             </div>
                                         </div>
-                                        <li class="divider"></li>
-                                        <li><a href="#">Ver catálogo <span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
                                     </ul>
                                 </li>
-                                <li class="col-sm-3">
-                                    <ul>
-                                        <li class="dropdown-header">ACCESORIOS</li>
-                                        <li><a href="#">Corbatas</a></li>
-                                        <li><a href="#">Corbatines</a></li>
-                                        <li><a href="#">Moños</a></li>
-                                        <li><a href="#">Cinturones</a></li>
-                                    </ul>
-                                </li>
-                                <li class="divider visible-xs"></li>
-                                <li class="col-sm-3">
-                                    <ul>
-                                        <li class="dropdown-header">CREA TU DISEÑO</li>
-                                        <li><a href="#">Corbata</a></li>
-                                        <li><a href="#">Corbatin</a></li>
-                                        <li><a href="#">Moño</a></li>
-                                        <li><a href="#">Cinturon</a></li>							
-                                    </ul>
-                                </li>
-                            </ul>				
+                        </ul>				
                         </li>
-                        <li class="dropdown mega-dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">NIÑOS</a>				
-                            <ul class="dropdown-menu mega-dropdown-menu">
-                                <li class="col-sm-3 hidden-xs">
-                                    <ul>
-                                        <li class="dropdown-header">NUEVO</li>                            
-                                        <div id="menCollection" class="carousel slide" data-ride="carousel">
-                                            <div class="carousel-inner">
-                                                <div class="item active">
-                                                    <a href="#"><img src="images/photos/dsc05315.jpg" class="img-responsive" alt="product 1"></a>
-                                                    <h4><small>Vestido de novia rebozo</small></h4>                                        
-                                                    <button class="btn btn-primary" type="button">$ 20,599.00 </button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span></button>       
-                                                </div>
-                                                <div class="item">
-                                                    <a href="#"><img src="images/photos/dsc05315.jpg" class="img-responsive" alt="product 2"></a>
-                                                    <h4><small>Rebozo de ceda color rojo</small></h4>                                        
-                                                    <button class="btn btn-primary" type="button">$ 7,599.00</button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span></button>        
-                                                </div>
-                                                <div class="item">
-                                                    <a href="#"><img src="images/photos/dsc05315.jpg" class="img-responsive" alt="product 3"></a>
-                                                    <h4><small>Bolsa de rebozo</small></h4>                                        
-                                                    <button class="btn btn-primary" type="button">$ 1,599.00</button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span></button>      
-                                                </div>                               
-                                            </div>
-                                        </div>
-                                        <li class="divider"></li>
-                                        <li><a href="#">Ver catálogo <span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
-                                    </ul>
-                                </li>
-                                <li class="divider visible-xs"></li>
-                                <li class="col-sm-3">
-                                    <ul>
-                                        <li class="dropdown-header">ATUENDOS</li>
-                                        <li><a href="#">Ver todo</a></li>
-                                        <li class="divider"></li>
-                                        <li class="dropdown-header">VESTIDOS</li>
-                                        <li><a href="#">Novia</a></li>
-                                        <li><a href="#">Fiesta</a></li>
-                                        <li><a href="#">Casuales</a></li>
-                                        <li class="divider"></li>
-                                        <li class="dropdown-header">OTRAS PRENDAS</li>
-                                        <li><a href="#">Tops /Blusas</a></li>
-                                        <li><a href="#">Faldas</a></li>
-                                    </ul>
-                                </li>
-                                <li class="divider visible-xs"></li>
-                                <li class="col-sm-3">
-                                    <ul>
-                                        <li class="dropdown-header">ACCESORIOS</li>
-                                        <li><a href="#">Collares</a></li>
-                                        <li><a href="#">Aretes</a></li>                           
-                                        <li><a href="#">Bolsos</a></li>	
-                                        <li class="divider"></li>
-                                        <li class="dropdown-header">REBOZOS</li>
-                                        <li><a href="#">Seda</a></li>                            
-                                        <li><a href="#">Articela</a></li>	
-                                        <li class="divider"></li>
-                                        <li class="dropdown-header">CHALINAS</li>
-                                        <li><a href="#">Seda</a></li>                            
-                                        <li><a href="#">Articela</a></li>						
-                                    </ul>
-                                </li>
-                                <li class="divider visible-xs"></li>
-                                <li class="col-sm-3">
-                                    <ul>
-                                        <li class="dropdown-header">CREA TU DISEÑO</li>
-                                        <li><a href="#">Robozo</a></li>
-                                        <li><a href="#">Chalina</a></li>
-                                        <li><a href="#">Prenda</a></li>                      
-                                    </ul>
-                                </li>
-                            </ul>				
-                        </li>
-                        <li class="dropdown mega-dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">MAGAZINE</a>							
-                        </li>
+                        <li class="opt"><a href="#">MAGAZINE</a></li>
+                        <li class="opt"><a href="#">CONTACTO</a></li>     
                     </ul>
                 </div>
-                <br>
             </nav>
         </div>
     </header>
-
-    <div class="container-fliud">
-        <section class="main" role="main">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <div class="carousel-indicators-responsive">
-                    <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"><div></div></li>
-                        <li data-target="#myCarousel" data-slide-to="1"><div></div></li>
-                        <li data-target="#myCarousel" data-slide-to="2"><div></div></li>
-                    </ol>    
-                </div>       
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <img src="images/photos/slidebg1.jpg" alt="" style="width:100%;">
-                        <div class="carousel-caption carrusel">
-                            <button type="button" class="btn btn-primary press-here">Mujer</button>
-                        </div>
-                    </div>    
-                </div>
-            </div>  
-
-            <div class="about-us container-fluid">
-                <div class="jumbotron row">
-                    <div class="container-border-1  col-sm-6 col-md-6 col-lg-6">
-                        <div class="img-container img-responsive center-block">
-                        </div>  
-                    </div>         
-                    <div class="container-inf col-sm-6  col-md-6 col-lg-6 ">  
-                        <h2 class="about-us-title">About Us</h2>
-                        <div class="info">
-                            <p><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                            commodo consequat.</b></p>
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                            anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                            commodo consequat.</p>
-                            <p><a href="html/about_us.html" class="btn btn-primary btns" role="button">Learn more...</a></p>
-                        </div>
-                    </div> 
-                </div>
-            </div>
-
-            <div class="jumbotron row">
-                <div class="container-border-1 container-section3 col-xs-10 col-sm-10 col-md-5 col-lg-5 col-xs-offset-1 col-sm-offset-1 col-lg-offset-1">
-                    <div class="img1-container-section3">    
-                    </div>
-                    <div class="info-container-section3">
-                        <h2 class="container-section3-title">Scholarships</h2>
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero cupiditate eveniet, ullam animi et odio consequuntur tempore corrupti accusantium amet molestiae rem quis quas iure reprehenderit dolor eius eaque ducimus!</p>
-                        <div class="btn-container-section3-lear">
-                            <p><a href="html/about_us.html" class="btn btn-primary btn-container-section3" role="button">Learn more...</a></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="container-border-1 container-section3 col-xs-10 col-sm-10 col-md-5 col-lg-5 col-xs-offset-1 col-sm-offset-1 col-lg-offset-0 ">
-                    <div class="img2-container-section3">    
-                    </div>
-                    <div class="info-container-section3">
-                        <h2 class="container-section3-title">Donations</h2>
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero cupiditate eveniet, ullam animi et odio consequuntur tempore corrupti accusantium amet molestiae rem quis quas iure reprehenderit dolor eius eaque ducimus!</p>
-                        <div class="btn-container-section3-lear">
-                            <p><a href="html/about_us.html" class="btn btn-primary btn-container-section3" role="button">Learn more...</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="about-us container-fluid">
-                <div class="jumbotron row">      
-                    <div class="container-inf col-sm-6  col-md-6 col-lg-6 ">  
-                        <h2 class="about-us-title">Programs</h2>
-                        <div class="info">
-                            <p><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                commodo consequat.</b></p>
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                                anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                commodo consequat.</p>
-                            <p><a href="html/programs.html" class="btn btn-primary btns" role="button">Learn more...</a></p>
-                        </div>    
-                    </div> 
-                    <div class="container-border-1 col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                            <div class="img-container2 img-responsive center-block">
-                            </div>  
-                    </div>   
-                </div>       
-            </div>
-
-            <div class="about-us container-fluid">
-                <div class="jumbotron row">      
-                    <div class="container-inf center col-xs-12 col-sm-12  col-md-12 col-lg-12  col-xs-offset-0 ">  
-                        <h2 class="about-us-title">Countries</h2>
-                        <div class="info">
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                                    anim id est laborum.</p>
-                        </div>    
-                    </div> 
-                        
-                    <!--Container-Countries-Images-->
-                    <div class="row"> 
-                        <!--Container-Countries-Image 1-->
-                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <div class="row">
-                                <div class="thumbnail img-countries col-xs-8 col-xs-offset-2">
-                                    <img src="images/photos/dsc05315.jpg" class="img-responsive img-countries col-xs-4 col-sm-12 col-md-12 col-lg-12 col-xs-offset-3" alt="Nature" >
-                                </div>
-                                <div class="caption">
-                                    <div class="title-picture col-xs-8 col-xs-offset-2">
-                                        <h3>Australia</h3>
-                                    </div>
-                                    <div class="description-picture col-xs-8 col-xs-offset-2">
-                                        <p>Lorem ipsumLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p> 
-                                    </div>
-                                </div>  
-                            </div>
-                        </div>
-                        <!--Container-Countries-Image  2-->
-                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <div class="row">
-                                <div class="thumbnail img-countries col-xs-8 col-xs-offset-2">
-                                    <img src="images/photos/dsc05315.jpg" class="img-responsive img-countries col-xs-4 col-sm-12 col-md-12 col-lg-12 col-xs-offset-3" alt="Nature" >
-                                </div>
-                                <div class="caption">
-                                    <div class="title-picture col-xs-8 col-xs-offset-2">
-                                        <h3>UK</h3>
-                                    </div>
-                                    <div class="description-picture col-xs-8 col-xs-offset-2">
-                                        <p>Lorem ipsumLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p> 
-                                    </div>
-                                </div>  
-                            </div>
-                        </div>
-                    
-                        <!--Container-Countries-Image 3-->
-                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <div class="row">
-                                <div class="thumbnail img-countries col-xs-8 col-xs-offset-2">
-                                    <img src="images/photos/dsc05315.jpg" class="img-responsive img-countries col-xs-4 col-sm-12 col-md-12 col-lg-12 col-xs-offset-3" alt="Nature" >
-                                </div>
-                                <div class="caption">
-                                    <div class="title-picture col-xs-8 col-xs-offset-2">
-                                        <h3>USA</h3>
-                                    </div>
-                                    <div class="description-picture col-xs-8 col-xs-offset-2">
-                                        <p>Lorem ipsumLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p> 
-                                    </div>
-                                </div>  
-                            </div>
-                        </div>
-                                                                        
-                    </div>
-                </div>       
-            </div>
-
-            <!-- Section 6 -->
-            <!-- Training & Clasess -->
-            <div class="about-us container-fluid">
-                    <div class="jumbotron row">      
-                        <div class="container-inf col-sm-6  col-md-6 col-lg-6 ">  
-                            <h2 class="about-us-title">Programs</h2>
-                            <div class="info">
-                                <p><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo consequat.</b></p>
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                                    anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo consequat.</p>
-                                <p><a href="html/programs.html" class="btn btn-primary btns" role="button">Learn more...</a></p>
-                            </div>    
-                        </div> 
-                    </div>       
-                </div>
-            </section>
-        </div>
     
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
