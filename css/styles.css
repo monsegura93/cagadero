@@ -198,7 +198,8 @@ header .navbar-default .navbar-nav>.active>a:hover {
 .header2{
   position: fixed;
   height: 100px;
-  margin-top: -25px;
+  margin-top: - 5px;
+  background-color: #ffffff;
 }
 .header2 li.logo-xs{/*Estilos de logo para resolución xs,sm*/
   width: 100px;
@@ -235,4 +236,9 @@ header .navbar-default .navbar-nav>.active>a:hover {
 .header2 .navbar-default .navbar-nav>.active>a:hover {
   color: #c49f58;
   background-color: #ffffff;
+}
+.scrollable-menu {
+  height: auto;
+  max-height: 400px;
+  overflow-x: hidden;
 }
